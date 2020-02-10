@@ -53,4 +53,8 @@ cd /root && curl -o installer.sh -L https://raw.githubusercontent.com/ariadata/P
 ```sh
 cd /root && curl -o installer.sh -L https://raw.githubusercontent.com/ariadata/PHP-FPM_NginX_shell-installers/master/CentOS7_x64_NginX_PHP-FPM73_MariaDB-10.4.sh && sh installer.sh
 ```
+#### PHP-FPM 7.4 + MariaDB 10.4 + NginX :
+```sh
+cd /root && curl -o installer.sh -L https://raw.githubusercontent.com/ariadata/PHP-FPM_NginX_shell-installers/master/CentOS7_x64_NginX_PHP-FPM74_MariaDB-10.4.sh && sh installer.sh
+```
 ---
