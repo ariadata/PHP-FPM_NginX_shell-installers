@@ -2,7 +2,7 @@
 yum install wget epel-release yum-utils -y;
 yum update -y;
 rpm -Uvh https://rpms.remirepo.net/enterprise/remi-release-7.rpm;
-sed -i 's/enforcing/disabled/g' /etc/selinux/config /etc/selinux/config;
+sed -i 's/SELINUX=[^\s]+/SELINUX=disabled/g' /etc/selinux/config;
 wget "https://raw.githubusercontent.com/ariadata/PHP-FPM_NginX_shell-installers/master/static-files/MariaDB-10.3_C7_x64.repo" -O /etc/yum.repos.d/MariaDB.repo;
 wget "https://raw.githubusercontent.com/ariadata/PHP-FPM_NginX_shell-installers/master/static-files/nginx.repo" -O /etc/yum.repos.d/nginx.repo;
 systemctl stop firewalld;
@@ -27,4 +27,4 @@ service nginx start;
 service php-fpm start;
 yum update -y;
 mysql_secure_installation;
-#reboot; 
+#reboot;
