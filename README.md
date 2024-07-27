@@ -1,4 +1,4 @@
-[![Build Status](https://files.ariadata.co/file/ariadata_logo.png)](https://ariadata.co)
+[![Build Status](https://raw.githubusercontent.com/ariadata/ariadata-files/main/public-assets/images/ariadata_logo.png)](https://ariadata.co)
 
 > After Installing , It Ask You to Configure MariaDB , Default Password is Empty! Just Enter! After Configure (Usually all Items are y ) , Then Reboot System
 ---
